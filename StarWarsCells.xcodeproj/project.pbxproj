@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		8C00DAE21CDA8AF000B6EDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DAE11CDA8AF000B6EDA7 /* main.m */; };
 		8C00DAE51CDA8AF000B6EDA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DAE41CDA8AF000B6EDA7 /* AppDelegate.m */; };
-		8C00DAE81CDA8AF000B6EDA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DAE71CDA8AF000B6EDA7 /* ViewController.m */; };
+		8C00DAE81CDA8AF000B6EDA7 /* CharacterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DAE71CDA8AF000B6EDA7 /* CharacterTableViewController.m */; };
 		8C00DAEB1CDA8AF000B6EDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C00DAE91CDA8AF000B6EDA7 /* Main.storyboard */; };
 		8C00DAED1CDA8AF000B6EDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C00DAEC1CDA8AF000B6EDA7 /* Assets.xcassets */; };
 		8C00DAF01CDA8AF000B6EDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C00DAEE1CDA8AF000B6EDA7 /* LaunchScreen.storyboard */; };
+		8C00DAF81CDA8C6200B6EDA7 /* swfa.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C00DAF71CDA8C6200B6EDA7 /* swfa.json */; };
+		8C00DAFB1CDA8D2300B6EDA7 /* Characters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DAFA1CDA8D2300B6EDA7 /* Characters.m */; };
+		8C00DAFE1CDAA23900B6EDA7 /* ResistanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DAFD1CDAA23900B6EDA7 /* ResistanceCell.m */; };
+		8C00DB011CDAA29000B6EDA7 /* FirstOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DB001CDAA29000B6EDA7 /* FirstOrderCell.m */; };
+		8C00DB041CDAA30900B6EDA7 /* LightSideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DB031CDAA30900B6EDA7 /* LightSideCell.m */; };
+		8C00DB071CDAA32B00B6EDA7 /* DarkSideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C00DB061CDAA32B00B6EDA7 /* DarkSideCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,23 @@
 		8C00DAE11CDA8AF000B6EDA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C00DAE31CDA8AF000B6EDA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C00DAE41CDA8AF000B6EDA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C00DAE61CDA8AF000B6EDA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C00DAE71CDA8AF000B6EDA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C00DAE61CDA8AF000B6EDA7 /* CharacterTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterTableViewController.h; sourceTree = "<group>"; };
+		8C00DAE71CDA8AF000B6EDA7 /* CharacterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterTableViewController.m; sourceTree = "<group>"; };
 		8C00DAEA1CDA8AF000B6EDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C00DAEC1CDA8AF000B6EDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C00DAEF1CDA8AF000B6EDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C00DAF11CDA8AF000B6EDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C00DAF71CDA8C6200B6EDA7 /* swfa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swfa.json; sourceTree = "<group>"; };
+		8C00DAF91CDA8D2300B6EDA7 /* Characters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Characters.h; sourceTree = "<group>"; };
+		8C00DAFA1CDA8D2300B6EDA7 /* Characters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Characters.m; sourceTree = "<group>"; };
+		8C00DAFC1CDAA23900B6EDA7 /* ResistanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResistanceCell.h; sourceTree = "<group>"; };
+		8C00DAFD1CDAA23900B6EDA7 /* ResistanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResistanceCell.m; sourceTree = "<group>"; };
+		8C00DAFF1CDAA29000B6EDA7 /* FirstOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstOrderCell.h; sourceTree = "<group>"; };
+		8C00DB001CDAA29000B6EDA7 /* FirstOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstOrderCell.m; sourceTree = "<group>"; };
+		8C00DB021CDAA30900B6EDA7 /* LightSideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightSideCell.h; sourceTree = "<group>"; };
+		8C00DB031CDAA30900B6EDA7 /* LightSideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightSideCell.m; sourceTree = "<group>"; };
+		8C00DB051CDAA32B00B6EDA7 /* DarkSideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkSideCell.h; sourceTree = "<group>"; };
+		8C00DB061CDAA32B00B6EDA7 /* DarkSideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkSideCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +77,23 @@
 			children = (
 				8C00DAE31CDA8AF000B6EDA7 /* AppDelegate.h */,
 				8C00DAE41CDA8AF000B6EDA7 /* AppDelegate.m */,
-				8C00DAE61CDA8AF000B6EDA7 /* ViewController.h */,
-				8C00DAE71CDA8AF000B6EDA7 /* ViewController.m */,
+				8C00DAE61CDA8AF000B6EDA7 /* CharacterTableViewController.h */,
+				8C00DAE71CDA8AF000B6EDA7 /* CharacterTableViewController.m */,
+				8C00DAFF1CDAA29000B6EDA7 /* FirstOrderCell.h */,
+				8C00DB001CDAA29000B6EDA7 /* FirstOrderCell.m */,
+				8C00DB021CDAA30900B6EDA7 /* LightSideCell.h */,
+				8C00DB031CDAA30900B6EDA7 /* LightSideCell.m */,
+				8C00DB051CDAA32B00B6EDA7 /* DarkSideCell.h */,
+				8C00DB061CDAA32B00B6EDA7 /* DarkSideCell.m */,
+				8C00DAFC1CDAA23900B6EDA7 /* ResistanceCell.h */,
+				8C00DAFD1CDAA23900B6EDA7 /* ResistanceCell.m */,
+				8C00DAF91CDA8D2300B6EDA7 /* Characters.h */,
+				8C00DAFA1CDA8D2300B6EDA7 /* Characters.m */,
 				8C00DAE91CDA8AF000B6EDA7 /* Main.storyboard */,
 				8C00DAEC1CDA8AF000B6EDA7 /* Assets.xcassets */,
 				8C00DAEE1CDA8AF000B6EDA7 /* LaunchScreen.storyboard */,
 				8C00DAF11CDA8AF000B6EDA7 /* Info.plist */,
+				8C00DAF71CDA8C6200B6EDA7 /* swfa.json */,
 				8C00DAE01CDA8AF000B6EDA7 /* Supporting Files */,
 			);
 			path = StarWarsCells;
@@ -139,6 +167,7 @@
 			files = (
 				8C00DAF01CDA8AF000B6EDA7 /* LaunchScreen.storyboard in Resources */,
 				8C00DAED1CDA8AF000B6EDA7 /* Assets.xcassets in Resources */,
+				8C00DAF81CDA8C6200B6EDA7 /* swfa.json in Resources */,
 				8C00DAEB1CDA8AF000B6EDA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,9 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C00DAE81CDA8AF000B6EDA7 /* ViewController.m in Sources */,
+				8C00DB071CDAA32B00B6EDA7 /* DarkSideCell.m in Sources */,
+				8C00DAE81CDA8AF000B6EDA7 /* CharacterTableViewController.m in Sources */,
+				8C00DB011CDAA29000B6EDA7 /* FirstOrderCell.m in Sources */,
+				8C00DB041CDAA30900B6EDA7 /* LightSideCell.m in Sources */,
 				8C00DAE51CDA8AF000B6EDA7 /* AppDelegate.m in Sources */,
 				8C00DAE21CDA8AF000B6EDA7 /* main.m in Sources */,
+				8C00DAFE1CDAA23900B6EDA7 /* ResistanceCell.m in Sources */,
+				8C00DAFB1CDA8D2300B6EDA7 /* Characters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

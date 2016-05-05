@@ -1,0 +1,98 @@
+[
+  {
+    "name" : "Kylo Ren",
+    "type" : "darkside",
+    "image" : "kyloren",
+    "description" : "A bad ass. He stopped a blaster shot!"
+  },
+  {
+    "name" : "Finn",
+    "type" : "lightside",
+    "image" : "finn",
+    "description" : "Traitor!"
+  },
+  {
+    "name" : "Luke Skywalker",
+    "type" : "lightside",
+    "image" : "lukeskywalker",
+    "description" : "Isolated Jedi Master"
+  },
+  {
+    "name" : "Supreme Leader Snoke",
+    "type" : "darkside",
+    "image" : "starwars",
+    "description" : "Off-site Sith Supervisor"
+  },
+  {
+    "name" : "Han Solo",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "Bad Father"
+  },
+  {
+    "name" : "Princess Leia",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "Concerned mother"
+  },
+  {
+    "name" : "Chewbacca",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "Fuzzball"
+  },
+  {
+    "name" : "Captain Phasma",
+    "type" : "firstorder",
+    "image" : "starwars",
+    "description" : "Trash compacter inspector"
+  },
+  {
+    "name" : "R2D2",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "Sleeping"
+  },
+  {
+    "name" : "Maz Kanata",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "Know It All"
+  },
+  {
+    "name" : "General Hux",
+    "type" : "firstorder",
+    "image" : "starwars",
+    "description" : "Ass-kisser"
+  },
+  {
+    "name" : "Poe Dameron",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "Best pilot in the galaxy!"
+  },
+  {
+    "name" : "C-3PO",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "Has a new red arm!"
+  },
+  {
+    "name" : "Admiral Ackbar",
+    "type" : "resistance",
+    "image" : "starwars",
+    "description" : "It's A Trap!"
+  },
+ {
+ "name" : "BB-8",
+ "type" : "resistance",
+ "image" : "starwars",
+ "description" : "Fiesty Droid"
+ },
+  {
+    "name" : "Rey",
+    "type" : "lightside",
+    "image" : "rey",
+    "description" : "Scavenger"
+  }
+]
